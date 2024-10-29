@@ -37,14 +37,17 @@ You'll create different visualizations for KPIs, variance, growth, and forecasti
      - Drag `Date` to the **X-axis**.
      - Drag `Revenue` and `Expenses` to the **Y-axis**.
      - This shows how revenue and expenses change over time.
+![{CF6A9332-EF54-4CB6-9483-13829ED8010C}](https://github.com/user-attachments/assets/e2a918bb-8813-4b4c-bc58-4703f1ea0127)
 
 #### 2. **Profit over Time**
    - **Chart Type**: Line chart or area chart
    - **Steps**:
      - Create a new **calculated measure** for Profit if needed (`Profit = Revenue - Expenses`).
+     - ![{EAE489C6-22C2-4793-A854-B14AC58B5B15}](https://github.com/user-attachments/assets/2e7153f4-77ef-4154-b7f4-bed1470bca37)
      - Drag `Date` to the **X-axis**.
      - Drag the calculated `Profit` to the **Y-axis**.
      - This visualizes your company’s profit trend.
+![{0F105AD9-8591-41A5-AB00-796D1643A678}](https://github.com/user-attachments/assets/f6e397b9-ee2c-425b-b9b7-0e61e02569a6)
 
 #### 3. **Budget vs. Actual Expenses**
    - **Chart Type**: Clustered column chart
@@ -52,14 +55,17 @@ You'll create different visualizations for KPIs, variance, growth, and forecasti
      - Drag `Date` to the **X-axis**.
      - Drag `Budget` and `Expenses` to the **Y-axis**.
      - This helps compare your actual expenses against the budget each month.
+![{7CF7458B-0B93-4401-B088-CE1C5E79161B}](https://github.com/user-attachments/assets/93eb03d1-0273-424d-ac0d-a616e0f9f0f5)
 
 #### 4. **Budget Variance Analysis**
    - **Chart Type**: Bar chart or column chart
    - **Steps**:
      - Create a calculated measure for **Budget Variance** if needed (`Budget Variance = Budget - Expenses`).
+     - ![{056CC472-3505-4EC5-8EEC-1661346E0328}](https://github.com/user-attachments/assets/6a90a6b3-8eeb-422f-86e7-f505af2a37c1)
      - Drag `Date` to the **X-axis**.
      - Drag the `Budget Variance` measure to the **Y-axis**.
      - This chart helps track how much the actual spending deviates from the budget.
+![{AC5252E2-A75E-48ED-9FB6-CFBE764BBB06}](https://github.com/user-attachments/assets/093aeccb-cb67-4cb8-86d7-2b0f7ade973b)
 
 #### 5. **Revenue Growth Percentage**
    - **Chart Type**: Line chart
@@ -67,6 +73,7 @@ You'll create different visualizations for KPIs, variance, growth, and forecasti
      - Drag `Date` to the **X-axis**.
      - Drag `Revenue Growth %` to the **Y-axis**.
      - This shows the month-over-month revenue growth, providing insight into trends in the company's growth.
+![{4E8745FD-F352-4B0E-958F-5F7B4976C1F1}](https://github.com/user-attachments/assets/fb93a3c4-f0b2-4584-b9a8-2ebc150e3d89)
 
 #### 6. **Expense Forecasting**
    - **Chart Type**: Line chart or area chart
