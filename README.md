@@ -89,21 +89,22 @@ To enhance your dashboard, use DAX (Data Analysis Expressions) for more advanced
    - Go to `Modeling` -> `New Measure`.
    - Enter this formula:
      ```DAX
-     Total Revenue = SUM('Table'[Revenue])
+     Total Revenue = SUM('financial_dataset'[Revenue])
      ```
 
 2. **Calculate Profit Margin**:
    - Go to `Modeling` -> `New Measure`.
    - Enter this formula:
      ```DAX
-     Profit Margin = DIVIDE(SUM('Table'[Profit]), SUM('Table'[Revenue]))
+     Profit Margin = DIVIDE(SUM('financial_dataset'[Profit]), SUM('financial_dataset'[Revenue]))
      ```
 
 3. **Calculate Year-to-Date (YTD) Revenue**:
    - Create a new measure:
      ```DAX
-     YTD Revenue = TOTALYTD(SUM('Table'[Revenue]), 'Table'[Date])
+     YTD Revenue = TOTALYTD(SUM('financial_dataset'[Revenue]), 'financial_dataset'[Date])
      ```
+![{B32E2E28-5271-4202-91C3-890C23D1E1B9}](https://github.com/user-attachments/assets/ff42158e-aec6-4656-822a-cb28ca880650)
 
 4. **Create Conditional Formatting**:
    - Apply conditional formatting to highlight negative profits or budget variances, making it easier to spot problematic areas.
@@ -127,6 +128,9 @@ Steps:
 - **Titles and Labels**: Add descriptive titles and labels to your charts.
 - **Colors**: Use consistent color schemes for different metrics (e.g., green for profit, red for loss).
 - **Tooltips**: Add tooltips to give more detailed information when users hover over visuals.
+
+![{7942BC47-0FCA-4371-97F4-A1741468248A}](https://github.com/user-attachments/assets/ace2a2d0-e28d-4f0d-a496-66328ed22577)
+![{594B3CC6-05F4-4479-8161-701413682E7B}](https://github.com/user-attachments/assets/24e86e08-1b48-4935-82dd-fddd0f7ef0ee)
 
 ### Step 9: **Publish Your Dashboard**
 Once your dashboard is ready:
